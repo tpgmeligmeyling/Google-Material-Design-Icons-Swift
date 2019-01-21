@@ -16,7 +16,49 @@
 		4E19E0261B91B34800825B73 /* GMDIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E19E0251B91B34800825B73 /* GMDIcon.swift */; };
 		4E19E0281B91B35E00825B73 /* GMDIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E19E0271B91B35E00825B73 /* GMDIcons.ttf */; };
 		69FA3FB021F60E39008F0B98 /* materialdesignicons-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 69FA3FAF21F60E39008F0B98 /* materialdesignicons-webfont.ttf */; };
+		69FA3FBF21F61D30008F0B98 /* GMD_Swift_Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69FA3FB621F61D2F008F0B98 /* GMD_Swift_Framework.framework */; };
+		69FA3FC821F61D30008F0B98 /* GMD_Swift_Framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 69FA3FB821F61D2F008F0B98 /* GMD_Swift_Framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69FA3FCB21F61D30008F0B98 /* GMD_Swift_Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69FA3FB621F61D2F008F0B98 /* GMD_Swift_Framework.framework */; };
+		69FA3FCC21F61D30008F0B98 /* GMD_Swift_Framework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 69FA3FB621F61D2F008F0B98 /* GMD_Swift_Framework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69FA3FC021F61D30008F0B98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E19E0041B919AFC00825B73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69FA3FB521F61D2F008F0B98;
+			remoteInfo = "GMD Swift Framework";
+		};
+		69FA3FC221F61D30008F0B98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E19E0041B919AFC00825B73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E19E00B1B919AFC00825B73;
+			remoteInfo = "GMD Swift";
+		};
+		69FA3FC921F61D30008F0B98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E19E0041B919AFC00825B73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69FA3FB521F61D2F008F0B98;
+			remoteInfo = "GMD Swift Framework";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		69FA3FD221F61D30008F0B98 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				69FA3FCC21F61D30008F0B98 /* GMD_Swift_Framework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4E19E00C1B919AFC00825B73 /* GMD Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GMD Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -30,6 +72,10 @@
 		4E19E0251B91B34800825B73 /* GMDIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GMDIcon.swift; sourceTree = "<group>"; };
 		4E19E0271B91B35E00825B73 /* GMDIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GMDIcons.ttf; sourceTree = "<group>"; };
 		69FA3FAF21F60E39008F0B98 /* materialdesignicons-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "materialdesignicons-webfont.ttf"; sourceTree = "<group>"; };
+		69FA3FB621F61D2F008F0B98 /* GMD_Swift_Framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GMD_Swift_Framework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69FA3FB821F61D2F008F0B98 /* GMD_Swift_Framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMD_Swift_Framework.h; sourceTree = "<group>"; };
+		69FA3FB921F61D30008F0B98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69FA3FBE21F61D30008F0B98 /* GMD Swift FrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GMD Swift FrameworkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +83,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69FA3FCB21F61D30008F0B98 /* GMD_Swift_Framework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69FA3FB321F61D2F008F0B98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69FA3FBB21F61D30008F0B98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69FA3FBF21F61D30008F0B98 /* GMD_Swift_Framework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				4E19E00E1B919AFC00825B73 /* GMD Swift */,
+				69FA3FB721F61D2F008F0B98 /* GMD Swift Framework */,
 				4E19E00D1B919AFC00825B73 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,6 +118,8 @@
 			isa = PBXGroup;
 			children = (
 				4E19E00C1B919AFC00825B73 /* GMD Swift.app */,
+				69FA3FB621F61D2F008F0B98 /* GMD_Swift_Framework.framework */,
+				69FA3FBE21F61D30008F0B98 /* GMD Swift FrameworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -85,7 +150,27 @@
 			path = ../../Source;
 			sourceTree = "<group>";
 		};
+		69FA3FB721F61D2F008F0B98 /* GMD Swift Framework */ = {
+			isa = PBXGroup;
+			children = (
+				69FA3FB821F61D2F008F0B98 /* GMD_Swift_Framework.h */,
+				69FA3FB921F61D30008F0B98 /* Info.plist */,
+			);
+			path = "GMD Swift Framework";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		69FA3FB121F61D2F008F0B98 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69FA3FC821F61D30008F0B98 /* GMD_Swift_Framework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		4E19E00B1B919AFC00825B73 /* GMD Swift */ = {
@@ -95,15 +180,54 @@
 				4E19E0081B919AFC00825B73 /* Sources */,
 				4E19E0091B919AFC00825B73 /* Frameworks */,
 				4E19E00A1B919AFC00825B73 /* Resources */,
+				69FA3FD221F61D30008F0B98 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				69FA3FCA21F61D30008F0B98 /* PBXTargetDependency */,
 			);
 			name = "GMD Swift";
 			productName = "GMD Swift";
 			productReference = 4E19E00C1B919AFC00825B73 /* GMD Swift.app */;
 			productType = "com.apple.product-type.application";
+		};
+		69FA3FB521F61D2F008F0B98 /* GMD Swift Framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69FA3FD121F61D30008F0B98 /* Build configuration list for PBXNativeTarget "GMD Swift Framework" */;
+			buildPhases = (
+				69FA3FB121F61D2F008F0B98 /* Headers */,
+				69FA3FB221F61D2F008F0B98 /* Sources */,
+				69FA3FB321F61D2F008F0B98 /* Frameworks */,
+				69FA3FB421F61D2F008F0B98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GMD Swift Framework";
+			productName = "GMD Swift Framework";
+			productReference = 69FA3FB621F61D2F008F0B98 /* GMD_Swift_Framework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		69FA3FBD21F61D30008F0B98 /* GMD Swift FrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69FA3FD321F61D30008F0B98 /* Build configuration list for PBXNativeTarget "GMD Swift FrameworkTests" */;
+			buildPhases = (
+				69FA3FBA21F61D30008F0B98 /* Sources */,
+				69FA3FBB21F61D30008F0B98 /* Frameworks */,
+				69FA3FBC21F61D30008F0B98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69FA3FC121F61D30008F0B98 /* PBXTargetDependency */,
+				69FA3FC321F61D30008F0B98 /* PBXTargetDependency */,
+			);
+			name = "GMD Swift FrameworkTests";
+			productName = "GMD Swift FrameworkTests";
+			productReference = 69FA3FBE21F61D30008F0B98 /* GMD Swift FrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -111,11 +235,21 @@
 		4E19E0041B919AFC00825B73 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Patrik Vaberer";
 				TargetAttributes = {
 					4E19E00B1B919AFC00825B73 = {
 						CreatedOnToolsVersion = 7.0;
+					};
+					69FA3FB521F61D2F008F0B98 = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
+					};
+					69FA3FBD21F61D30008F0B98 = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4E19E00B1B919AFC00825B73;
 					};
 				};
 			};
@@ -133,6 +267,8 @@
 			projectRoot = "";
 			targets = (
 				4E19E00B1B919AFC00825B73 /* GMD Swift */,
+				69FA3FB521F61D2F008F0B98 /* GMD Swift Framework */,
+				69FA3FBD21F61D30008F0B98 /* GMD Swift FrameworkTests */,
 			);
 		};
 /* End PBXProject section */
@@ -150,6 +286,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		69FA3FB421F61D2F008F0B98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69FA3FBC21F61D30008F0B98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -164,7 +314,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		69FA3FB221F61D2F008F0B98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69FA3FBA21F61D30008F0B98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69FA3FC121F61D30008F0B98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69FA3FB521F61D2F008F0B98 /* GMD Swift Framework */;
+			targetProxy = 69FA3FC021F61D30008F0B98 /* PBXContainerItemProxy */;
+		};
+		69FA3FC321F61D30008F0B98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E19E00B1B919AFC00825B73 /* GMD Swift */;
+			targetProxy = 69FA3FC221F61D30008F0B98 /* PBXContainerItemProxy */;
+		};
+		69FA3FCA21F61D30008F0B98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69FA3FB521F61D2F008F0B98 /* GMD Swift Framework */;
+			targetProxy = 69FA3FC921F61D30008F0B98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4E19E0131B919AFC00825B73 /* Main.storyboard */ = {
@@ -275,6 +457,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "GMD Swift/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -287,11 +470,172 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "GMD Swift/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "vaberer.GMD-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		69FA3FCD21F61D30008F0B98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "GMD Swift Framework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.jackpotsvr.GMD-Swift-Framework";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		69FA3FCE21F61D30008F0B98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "GMD Swift Framework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.jackpotsvr.GMD-Swift-Framework";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		69FA3FCF21F61D30008F0B98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "GMD Swift FrameworkTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.jackpotsvr.GMD-Swift-FrameworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GMD Swift.app/GMD Swift";
+			};
+			name = Debug;
+		};
+		69FA3FD021F61D30008F0B98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "GMD Swift FrameworkTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.jackpotsvr.GMD-Swift-FrameworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GMD Swift.app/GMD Swift";
 			};
 			name = Release;
 		};
@@ -312,6 +656,24 @@
 			buildConfigurations = (
 				4E19E01F1B919AFC00825B73 /* Debug */,
 				4E19E0201B919AFC00825B73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69FA3FD121F61D30008F0B98 /* Build configuration list for PBXNativeTarget "GMD Swift Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69FA3FCD21F61D30008F0B98 /* Debug */,
+				69FA3FCE21F61D30008F0B98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69FA3FD321F61D30008F0B98 /* Build configuration list for PBXNativeTarget "GMD Swift FrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69FA3FCF21F61D30008F0B98 /* Debug */,
+				69FA3FD021F61D30008F0B98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
