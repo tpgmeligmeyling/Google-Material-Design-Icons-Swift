@@ -14,7 +14,7 @@ FOUNDATION_EXPORT double GMD_Swift_FrameworkVersionNumber;
 //! Project version string for GMD_Swift_Framework.
 FOUNDATION_EXPORT const unsigned char GMD_Swift_FrameworkVersionString[];
 
-#import " Google_Material_Design_Icons_Swift-Swift.h"
+
 
 // In this header, you should import all the public headers of your framework using statements like #import <GMD_Swift_Framework/PublicHeader.h>
 

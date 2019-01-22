@@ -49,6 +49,13 @@ public extension UILabel {
     }
 }
 
+public extension UIFont {
+    
+    public func materialDesignIconFont(size: CGFloat) -> UIFont {
+        return UIFont(name: GMDStruct.FontName, size: size)!
+    }
+}
+
 public extension UIBarButtonItem {
     
     /**
@@ -147,7 +154,7 @@ public enum GMDType: Int {
         return GMDIcons.count
     }
     
-    var text: String? {
+    public var text: String? {
         
         return GMDIcons[rawValue]
     }
