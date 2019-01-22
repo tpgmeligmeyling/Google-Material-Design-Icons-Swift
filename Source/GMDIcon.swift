@@ -51,7 +51,7 @@ public extension UILabel {
 
 public extension UIFont {
     
-    public func materialDesignIconFont(size: CGFloat) -> UIFont {
+    public static func materialDesignIconFont(size: CGFloat) -> UIFont {
         return UIFont(name: GMDStruct.FontName, size: size)!
     }
 }
